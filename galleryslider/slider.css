@@ -1,0 +1,28 @@
+.galleryslider{
+	width:100%;
+	height:auto;
+	padding:20px;
+	border:1px solid gray;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+  background: none;
+}
+.image-slider-wrapper{
+	overflow: hidden;
+}
+#image_slider{
+	position: relative;
+	overflow: hidden;
+	height: 220px;
+	padding:0;
+	left:0;
+}
+#image_slider li{
+	position:relative;
+	max-width: 100%;
+	float:left;
+	list-style: none;
+	left: 0;
+}
+#image_slider li img{width: 470px; height: 220px}
